@@ -1,0 +1,568 @@
+@font-face {
+
+font-family:"Open Sans";
+
+src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+  font-weight: regular;
+ }
+@font-face {
+
+font-family:"Open Sans";
+
+src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+  font-weight: bold;
+ }
+body{
+  margin:0px;
+}
+
+
+.welcome {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ padding-top: 30px;
+  padding-bottom:30px;
+
+}
+.welcome::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.banner {
+  position: relative;
+  display: block;
+   z-index:1;
+}
+
+.navbar-logo {
+  width: 178px;
+
+
+}
+
+.menu a {
+text-decoration: none;
+color: #ffffff;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  font-family: "Open Sans";
+}
+.menu-list-item:nth-child(n + 2) {
+  margin-left: 35px;
+}
+.one{
+  width:1200px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.one-logo {
+
+  justify-content: space-between;
+
+
+  display: flex;
+  padding-left:15px;
+  padding-right:15px;
+
+}
+.welcome-title {
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 45px;
+  line-height: 75px;
+  color: #ffffff;
+  font-weight: bold ;
+  font-family: "Open Sans";
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+}
+h1 {
+  width:700px;
+
+
+}
+
+.News {
+  margin-top:60px;
+  display:flex;
+   width: 1200px;
+  margin-left: auto;
+    margin-right:auto;
+   box-sizing: border-box;
+  justify-content: space-between;
+
+}
+
+.News-one {
+  width: 778px;
+box-sizing: border-box;
+ padding-left:15px;
+}
+
+.course {
+  display: flex;
+   box-sizing: border-box;
+
+
+}
+.course-img{
+
+  box-sizing: border-box;
+  width:381px;
+}
+.course:nth-child(1n + 2) {
+  margin-top: 50px;
+}
+.course-preview{
+  box-sizing: border-box;
+
+
+}
+
+.course-info {
+  box-sizing: border-box;
+
+  margin-left:30px;
+
+
+}
+.course-info ul li{
+  margin-top:0px;
+  margin-bottop:0px;
+}
+.course-info a {
+     text-decoration: none;
+
+}
+.course-info h3{
+  margin-top:-15px;
+}
+.course-name {
+  width: 367px;
+
+
+}
+
+
+.tags-news{
+list-style: none;
+
+
+}
+.course-name a{
+    text-transform: uppercase;
+  font-size: 20px;
+line-height: 24px;
+color: #0f0d0e;
+font-weight: 700;
+font-family: "Open Sans";
+}
+.course-text{
+  width:367px;
+  height: 62px;
+font-size: 15px;
+line-height: 22px;
+color: #0f0d0e;
+font-weight: 400;
+font-family: "Open Sans";
+
+}
+
+
+
+.data-autor{
+  display:flex;
+  margin-top:0px;
+}
+.data{
+
+  font-size: 12px;
+line-height: 40px;
+color: #888888;
+font-weight: 400;
+font-family: "Open Sans";
+  margin-top:0px;
+}
+.data-two {
+
+  font-size: 12px;
+line-height: 40px;
+color: #888888;
+font-weight: 400;
+font-family: "Open Sans";
+  margin-top:0px;
+}
+.autor{
+  font-size: 12px;
+line-height: 40px;
+color: #000000;
+font-weight: 700;
+font-family: "Open Sans";
+  margin-left:15px;
+  margin-top:0px;
+}
+
+.tags-news {
+    list-style:none;
+  display:flex;
+  padding-left:0px;
+  margin-top:0px;
+}
+.tags-one a{
+  color: #b59f5b;
+}
+.tags-one:nth-child(n+2){
+  padding-left:8px;
+}
+.tags-one{
+font-size: 14px;
+line-height: 40px;
+color: #b59f5b;
+font-weight: 700;
+font-family: "Open Sans";
+
+}
+.News-two{
+  width:272px;
+}
+
+.crouse-info-two:nth-child(1n + 2) {
+  margin-top: 20px;
+}
+.post h2{
+ text-align: center;
+  font-size: 14px;
+line-height: 29px;
+color: #0f0d0e;
+font-weight: 700;
+font-family: "Open Sans";
+}
+.post{
+  position:relative;
+
+
+}
+.post h2::after {
+   content: "";
+  position: absolute;
+  left: 0;
+  width: 63px;
+  height: 4px;
+  background-color: #e1d9bd;
+  right: 0;
+  margin: 0 auto;
+  margin-top:30px;
+}
+.form-row-email{
+  position:relative;
+}
+.email::after {
+     content: "";
+  position: absolute;
+  left: 0;
+  width: 63px;
+  height: 4px;
+  background-color: #e1d9bd;
+  right: 0;
+  margin: 0 auto;
+  margin-top:30px;
+}
+.crouse-info-two{
+  display: flex;
+}
+.course-text-two{
+  box-sizing:border-box;
+ margin-top:-10px;
+ margin-left:20px;
+}
+
+
+.course-text-two h3{
+  margin-bottom:5px;
+}
+.course-text-two a{
+       text-decoration: none;
+color: #0f0d0e;
+}
+.course-img-two{
+
+  width: 70px;
+
+background-color: #f4f7f6;
+}
+.course-name-two  {
+
+  text-transform: uppercase;
+  font-size: 14px;
+line-height: 18px;
+color: #000000;
+font-weight: 700;
+font-family: "Open Sans";
+ margin-top:-10px;
+}
+
+.tags{
+width:272px;
+  position:relative;
+}
+.tags h2{
+
+font-size: 14px;
+line-height: 29px;
+color: #0f0d0e;
+font-weight: 700;
+font-family: "Open Sans";
+  text-align: center;
+}
+.tags h2::after{
+       content: "";
+  position: absolute;
+  left: 0;
+  width: 63px;
+  height: 4px;
+  background-color: #e1d9bd;
+  right: 0;
+  margin: 0 auto;
+  margin-top:30px;
+}
+
+.list a {
+text-decoration: none;
+font-size: 12px;
+line-height: 40px;
+color: #0f0d0e;
+font-weight: 700;
+font-family: "Open Sans";
+border: 3px solid #eeeeee;
+  padding: 6px 15px 6px 15px;
+ width: 86px;
+height: 30px;
+
+
+
+
+}
+.list:nth-child(n+2):nth-child(-n+3),
+.list:nth-child(n+5):nth-child(-n+6),
+.list:nth-child(8)
+{
+  margin-left:6px;
+}
+.list {
+   list-style: none;
+  text-align: left;
+
+
+}
+.list-tags {
+ display:flex;
+
+  flex-wrap: wrap;
+  text-align: right;
+ padding-left:0px;
+
+}
+.form-row{
+  margin-top:60px;
+}
+.field {
+  width: 222px;
+height: 48px;
+background-color: #f4f7f6;
+
+  box-sizing: border-box;
+
+  border: none;
+
+
+
+  outline: none;
+  padding-left:10px;
+ padding-right:10px;
+ }
+.button {
+  width: 48px;
+height: 48px;
+background-color: #b59f5b;
+  border: none;
+
+    position: absolute;
+}
+.icon{
+  margin-top:4px;
+  width:20px;
+  hight:20px;
+
+}
+
+.form-email{
+  width:272px;
+}
+.field-1{
+  box-sizing: border-box;
+width: 272px;
+height: 48px;
+background-color: #f4f7f6;
+font-size: 13px;
+line-height: 40px;
+color: #000000;
+font-weight: 400;
+  font-family: "Open Sans";
+
+border:none;
+  padding-left:10px;
+  padding-right:10px;
+}
+.button-1{
+width: 272px;
+height: 48px;
+background-color: #b59f5b;
+  font-size: 14px;
+line-height: 40px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+  border:none;
+  margin-top:15px;
+}
+.email{
+  font-size: 14px;
+line-height: 29px;
+color: #0f0d0e;
+font-weight: 700;
+font-family: "Open Sans";
+  text-align:center;
+}
+.form{
+  margin-top:20px;
+}
+
+.menu-list-two a{
+
+   text-decoration: none;
+  font-size: 14px;
+line-height: 47px;
+color: #000000;
+font-weight: 700;
+font-family: "Open Sans";
+
+}
+.menu-list-two{
+  text-align: left;
+}
+.list-two{
+  position:relative;
+  list-style: none;
+  width:410;
+  margin-top:20px;
+
+}
+.list-two h2::after{
+         content: "";
+  position: absolute;
+  left: 0;
+  width: 63px;
+  height: 4px;
+  background-color: #e1d9bd;
+  right: 0;
+  margin: 0 auto;
+  margin-top:30px;
+}
+.less{
+  margin-top:20px;
+  list-style: none;
+  margin-left:-40px;
+}
+
+.menu-list-two span{
+  display: inline;
+vertical-align:super;
+
+  font-size: 12px;
+line-height: 36px;
+color: #b59f5b;
+font-weight: 700;
+font-family: "Open Sans";
+}
+.list-two h2{
+  text-align:center;
+  font-size: 14px;
+line-height: 29px;
+color: #0f0d0e;
+font-weight: 700;
+font-family: "Open Sans";
+}
+
+.menu-list-two::after{
+  margin-top:40px;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 271px;
+height: 1px;
+background-color: #eeeeee;
+}
+.footer{
+  margin-top:60px;
+
+  width: 1200px;
+  margin-left: auto;
+    margin-right:auto;
+
+
+}
+.foot{
+width:1170px;
+
+background-color: #f4f7f6;
+ margin-left: auto;
+    margin-right:auto;
+
+  padding-top:30px;
+padding-bottom:30px;
+
+}
+.footer-icon{
+  width:25px;
+
+}
+.icon-foot  {
+  width:265px;
+  display:flex;
+  height:25px;
+
+ margin-left: auto;
+    margin-right:auto;
+
+}
+.icon-foot a:nth-child(n+2){
+  padding-left:35px;
+}
+.Copy{
+  margin-top:70px;
+}
+.Copyright{
+   text-align: center;
+  font-size: 12px;
+line-height: 40px;
+color: #999999;
+font-weight: 700;
+font-family: "Open Sans";
+}
